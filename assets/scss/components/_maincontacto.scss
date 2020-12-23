@@ -1,0 +1,38 @@
+main{
+    h2{
+        text-align: center;
+    }
+
+#gridcontacto{
+    display:grid;
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+
+    #form{
+        margin: 15px;
+    }
+
+    #map{
+        margin:15px;
+    }
+
+}
+}
+
+@media (min-width:1024px) {
+    #gridcontacto{
+
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1;
+
+        #form{
+            margin: 15px;
+        }
+
+        #map{
+            margin: 15px;
+        }
+    
+    }
+
+}
